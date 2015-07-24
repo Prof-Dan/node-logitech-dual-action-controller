@@ -19,7 +19,8 @@ Step 2. **Add some event listeners**
 
 ```js
 // Create a new one
-var controller = new require('logitech-dual-action-controller')()
+var Logitech = require('logitech-dual-action-controller')
+var controller = new Logitech();
 
 controller.on('1:release', console.log)
 
